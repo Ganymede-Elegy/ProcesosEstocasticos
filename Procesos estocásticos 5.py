@@ -64,6 +64,7 @@ for i in range(pasos):
 plt.plot(Y[0],Y[1]);
 plt.show();
 
+#Grafica el sistema determinista (Copia adaptada del código del profe)
 def sistema(y,t):
     x1=y[0];
     x2=y[1];
